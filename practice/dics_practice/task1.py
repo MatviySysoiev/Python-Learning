@@ -1,3 +1,10 @@
+"""
+Task:
+Write a program that creates an empty dictionary and prompts the user to enter 
+three keys followed by three corresponding values. Add the key-value pairs 
+to the dictionary and print the final dictionary.
+"""
+
 new_dict = {}
 
 first_key = input("Enter first key: ")
