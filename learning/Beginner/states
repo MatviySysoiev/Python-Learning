@@ -1,9 +1,0 @@
-my_name = 'Bogdan'
-
-print(id(my_name))
-
-my_num = 10
-print(id(my_num))
-
-my_second_name = 'Bogdan'
-print(id(my_second_name))
