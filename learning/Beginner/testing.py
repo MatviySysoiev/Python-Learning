@@ -1,4 +1,4 @@
-def hello(name):  # name - парамет р
+def hello(name):  # name - parameter
     print("Hello there,", name, "!")
 
 
@@ -7,7 +7,8 @@ def hello(name):  # name - парамет р
 def sum_nums(a, b):
     sum = a+b
     return (sum)
-    print("This text won't be shown")  # все, что после return не выполняется
+    # everything, that comes after return won't be completed
+    print("This text won't be shown")
 
 
 first_sum = sum_nums(2, 4)
