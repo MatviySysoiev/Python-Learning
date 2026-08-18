@@ -66,7 +66,7 @@ print(my_motorbike.get('model'))  # if there isn't, returns none, not error
 print(my_motorbike.get('model', 'Not Found'))
 
 print(my_motorbike.items())
-print(type(my_motorbike.items()))  # кортежи dict_items
+print(type(my_motorbike.items()))  # tuples dict_items
 
 print(my_motorbike.keys())
 print(type(my_motorbike.keys()))
