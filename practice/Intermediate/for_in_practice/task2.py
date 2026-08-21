@@ -12,3 +12,11 @@ def filter_list(new_list, spec_type):
 new_list = [True, 1, 5, '3', False, 51]
 
 print(filter_list(new_list, int))
+
+
+def filter_list(list_to_filter, value_type):
+    return list(filter(lambda elem: type(elem) is value_type, list_to_filter))
+
+
+res = filter_list(new_list, int)
+print(res)
