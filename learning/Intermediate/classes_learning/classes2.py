@@ -8,7 +8,6 @@ class Comment:
 
 
 my_comment = Comment("This is my first comment")
-
 print(my_comment)  # <__main__.Comment object at 0x000001728B8186E0>
 print(type(my_comment))  # <class '__main__.Comment'>
 # {'text': 'This is my first comment', 'votes_qty': 0}
